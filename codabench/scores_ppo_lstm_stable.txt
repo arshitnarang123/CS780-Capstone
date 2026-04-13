@@ -1,0 +1,8 @@
+mean_score_0: -9147.300
+std_score_0: 4941.680
+mean_score_2: -9726.900
+std_score_2: 4539.548
+mean_score_3: -8955.300
+std_score_3: 5313.267
+mean_score: -9276.500
+std_score: 4952.482

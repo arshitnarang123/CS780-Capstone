@@ -23,6 +23,6 @@ def policy(obs: np.ndarray, rng: np.random.Generator) -> str:
     """
 
     # Example baseline: mostly move forward
-    probs = np.array([0.05, 0.10, 0.70, 0.10, 0.05], dtype=float)
+    probs = np.array([0.05, 0.15, 0.60, 0.15, 0.05], dtype=float)
 
     return ACTIONS[int(rng.choice(len(ACTIONS), p=probs))]

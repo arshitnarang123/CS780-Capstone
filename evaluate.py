@@ -137,7 +137,7 @@ def main() -> None:
     parser.add_argument("--agent_file", type=str, required=True)
     parser.add_argument("--agent_name", type=str, default=None)
     parser.add_argument("--runs", type=int, default=10)
-    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--seed", type=int, default=30)
 
     parser.add_argument("--scaling_factor", type=int, default=5)
     parser.add_argument("--arena_size", type=int, default=500)
